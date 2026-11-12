@@ -1,14 +1,235 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="uk">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
 
 <body>
+    <!---->
     <h1>Hello</h1>
+
+    <a href="https://www.pexels.com/uk-ua/photo/38520381/">
+        <img src="https://images.pexels.com/photos/38520381/pexels-photo-38520381.jpeg?_gl=1*1y3e0df*_ga*NzcxOTE1MDM5LjE3OTQyMTY4MDU.*_ga_8JE65Q40S6*czE3OTQyMTY4MDQkbzEkZzEkdDE3OTQyMTY4MzUkajI5JGwwJGgw"
+            alt="Помаранчева вивіска 'Hello' на стіні" width="400">
+
+    </a>
+
+
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2 id="список1">Список 1</h2>
+    <ol type="1">
+        <li>Lorem.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem ipsum dolor sit.</li>
+
+    </ol>
+
+    <h2 id="список2">Список 2</h2>
+    <ul>
+        <li>Lorem.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem ipsum dolor sit.</li>
+
+    </ul>
+
+    <h3>Контакти</h3>
+    <ul>
+        <li><a href="https://www.google.com/" target="_blank">Погуглити ТУТ</a></li>
+        <li><a href="tel:+380671333807">Подзвонити мені</a></li>
+        <li><a href="mailto:m.tish2406@gmail.com">А за цією адресою можна мені написати</a></li>
+    </ul>
+
+    <h3>Навігація</h3>
+    <ul>
+        <li><a href="#список1">Скрол до списку 1</a></li>
+        <li><a href="#список2">Скрол до списку 2</a></li>
+    </ul>
+
+    <h4>І чисто по приколу</h4>
+    <button type="button">Жмакни! Я знаю, ти хочеш</button>
+
+    <figure>
+        <img src="https://images.pexels.com/photos/4271926/pexels-photo-4271926.jpeg"
+            alt="Вирізані з паперу літери слова HELLO" width="400">
+        <figcaption>
+            Щоб зробити таку аплікацію, візьміть ножиці, листок, на якому попередньо було надруковано потрібні
+            літери, виріжте літери, залишаючи невеликі відступи навколо літери. Потім складіть слово з цих літер.
+        </figcaption>
+    </figure>
+
+
+
+    <!-- Таблиця 1-->
+    <table>
+        <caption>
+            Train schedule
+        </caption>
+        <thead>
+            <tr>
+                <th>Train number</th>
+                <th>Route</th>
+                <th>Travel time</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>433</td>
+                <td>London - Paris</td>
+                <td>5 hours</td>
+            </tr>
+            <tr>
+                <td>701</td>
+                <td>New York - Chicago</td>
+                <td>7 hours</td>
+            </tr>
+            <tr>
+                <td>258</td>
+                <td>Oslo - Warsaw</td>
+                <td>4 hours</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Таблиця 2-->
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Cloud service</th>
+                <th colspan="3">Statistics</th>
+            </tr>
+
+            <tr>
+                <th>Users</th>
+                <th>Visits</th>
+                <th>Volume</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Google</td>
+                <td>12000</td>
+                <td>307000</td>
+                <td>1000 Tb</td>
+            </tr>
+            <tr>
+                <td>Amazon</td>
+                <td>9000</td>
+                <td>200500</td>
+                <td>800 Tb</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Довідник-->
+    <dl>
+        <dt>JPG</dt>
+        <dd>
+            Large files that do not require transparent backgrounds or animations.
+            This format is ideal for vivid photorealistic photographs as it can
+            contain millions of colors.
+        </dd>
+
+        <dt>PNG</dt>
+        <dd>
+            Has an additional parameter for describing transparency - the alpha
+            channel. Suitable for images with transparent or monochrome backgrounds.
+            Used for icons and decorative items.
+        </dd>
+
+        <dt>webP</dt>
+        <dd>
+            A replacement format for PNG and JPEG, but with incomplete browser
+            support. When equal image quality, the compressed files will be smaller
+            than PNG and JPEG on average by 25%.
+        </dd>
+    </dl>
+
+    <!--Якщо потрібно розмітити вірш чи текст. Як надрукуєш, так і виведе: з усіма відступами, переносами і зайвими пробілами-->
+    <pre>
+п л ю с
+
+Як ти? — не буду тебе питати.
+Довгі подробиці — атрибут
+мирних часів, нині інший статус.
+Просто, будь ласка, будь.
+
+Курс на життя зараз не дорожчий
+за нафтовий барель, та я молюсь.
+Фронт, укриття, чужина абощо —
+просто постав тут плюс.
+
+Маєш, напевно, чималий клопіт,
+часом і я наче з ніг валюсь.
+Дві наші долі малюю на попелі:
+лінія, лінія — плюс.
+</pre>
+
+    <!--Верхній і нижній індекс. Для математичних і хімічних формул-->
+
+    <p>Формула води: H<sub>2</sub>O</p>
+    <p>Площа ділянки: 150 м<sup>2</sup></p>
+
+    <!--Час і дата у форматі ISO 8601 -->
+    <time datetime="2026-11-11">11.11.2026</time>
+    <p>
+        Останні новини на <time datetime="2019-12-14">14 грудня 2019 року</time>.
+    </p>
+
+    <p>
+        Засідання відбулося об
+        <time datetime="2018-07-14T11:30">11:30 ранку</time>.
+    </p>
+
+    <!--Контактна інформація <br /> для переносу тексту на наступний рядок-->
+    <address>
+        м. Київ, <br />
+        Бульвар Лесі Українки, б. 26, <br />
+        4й поверх офіс 427
+    </address>
+
+    <address>
+        <a href="mailto:mango@mail.pig">mango@mail.pig</a>
+        <a href="tel:+1112223344">(111) 222-33-44</a>
+    </address>
+
+    <!--Виділення слів <b> <i>, інтонаційне виділення слів (асистивна верстка) <strong> <em>-->
+    <div>
+        <p><strong>Увага!</strong> Завершується термін підписки.</p>
+        <p><b>Виділяю жирним</b> текст за допомогою тега &#60;b&#62;.</p>
+    </div> <!--розмітка візуально однакова, але скрінрідер прочитає текст по-різному інтонаційно-->
+
+    <div>
+        <p>Я <em>в повному захваті</em>, коли затримують зарплату!</p>
+        <p>Тегом &#60;i&#62; виділяю останнє слово <i>курсивом</i></p>
+    </div> <!--розмітка візуально однакова, але скрінрідер прочитає текст по-різному інтонаційно-->
+
+    <!--Медіаконтент-->
+    <video poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" width="640" controls>
+        <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm" />
+        <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
+        <source src="http://techslides.com/demos/sample-videos/small.ogg" type="video/ogg" />
+
+        Your browser does not support the <code>video</code> element.
+    </video>
+
+    <audio controls>
+        <source src="song.mp3" type="audio/mpeg" />
+        <source src="song.ogg" type="audio/ogg" />
+
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+
+
+
 </body>
 
 </html>
